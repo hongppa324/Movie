@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hong's Movie choice </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+    </style>
+    <script src="./movie.js">
+    </script>
+
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="headtitle">
+            <h1>Top Rated Movies</h1>
+        </div>
+    </div>
+    <div class="wrapper">
+        <form class="search">
+            <label>영화 검색 : </label>
+            <input type="text" id="search-input" placeholder="search">
+            <button type="submit" id="search-btn">검색</button>
+        </form>
+    </div>
+
+    <main>
+        <!-- 메인 화면 : 카드 만들기 -->
+        <div class="movie_collection"></div>
+    </main>
+    <footer>
+        copyright. Peter Hong
+    </footer>
+</body>
+
+</html>
