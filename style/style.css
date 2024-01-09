@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e0f4ff;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+
+  background-color: #afc8ad;
+  border-bottom: solid white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-title {
+  font-size: 50px;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 500px;
+  height: 40px;
+
+  color: black;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10px;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+}
+
+.movie-card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  justify-self: center;
+  background-color: #ffffdd;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.movie-card title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.movie-card overview {
+  line-height: 1.3rem;
+}
+
+.movie_vote_average {
+  margin-top: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
