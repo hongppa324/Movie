@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Movie Hong</title>
+    <script src="./src/main.js" type="module"></script>
+  </head>
+  <body>
+    <!-- semantic tag 사용 / JS : "id" & camelCase / Css : "class" & kebab-case-->
+    <header class="header">
+      <h1 class="head-title">Top Rated Movies</h1>
+    </header>
+    <form id="search-form" class="form">
+      <label> 영화 검색 : </label>
+      <input name="searchValue" type="text" id="search-input" placeholder="search" />
+      <button type="submit" id="search-btn">검색</button>
+    </form>
+    <ul id="card-list"></ul>
+    <!-- 아래 list가 생성 -->
+
+    <footer>copyright. Peter Hong</footer>
+  </body>
+</html>
